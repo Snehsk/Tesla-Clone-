@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, "Times New Roman";
+}
+
+nav{
+    position: absolute;
+    width: 100%;
+}
+
+nav > img{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+    float: left;
+}
+
+nav > ul{
+    margin-left: 400px;
+    padding-top: 20px;
+}
+
+nav ul li {
+    display: block;
+    float:left;
+    padding-right: 20px;
+    transition: all 0.5s;
+}
+
+nav ul a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul a:hover{
+    color: grey;
+}
+
+#rightmenu ul li{
+    display: block;
+    float: right;
+}
+
+
+article{
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+}
+
+article h1{
+    padding-top: 200px;
+    font-size: 2em;
+}
+
+.firstbutton{
+    display: block;
+    border-radius: 30px;
+    background-color: #222;
+    color: white;
+    border: 3px solid black;
+    float: left;
+    width: 180px;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.firstbutton:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.firstbutton{
+    transition: all 0.5s;
+}
+
+.transbutton{
+    display: block;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    float: left;
+    width: 180px;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.transbutton:hover{
+    background-color: black;
+    color: white;
+}
+
+.transbutton{
+    transition: all 0.5s;
+}
+
+.button-group a{
+    color: black;
+}
+
+.button-group{
+    display: block;
+    margin:  0 auto;
+    width: 450px;
+    height: 100px;
+    margin-top: 40px;
+
+}
+
+#car1{
+    background-image: url(Images/car1.png);
+    height: 755px;
+    background-position: 0px -50px;
+    /*background-color: red;*/
+
+}
